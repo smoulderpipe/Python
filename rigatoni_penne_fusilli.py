@@ -13,8 +13,8 @@ def morra_golosa():
             print("Scelta non valida. Riprova con rigatoni, penne o fusilli.")
             continue
 
-        pasta = ["rigatoni", "penne", "fusilli"]
-        scelta_computer = random.choice(pasta)
+        PASTA = ["rigatoni", "penne", "fusilli"]
+        scelta_computer = random.choice(PASTA)
 
         print(f"Hai scelto {scelta_giocatore} e il computer ha scelto {scelta_computer}.")
 
