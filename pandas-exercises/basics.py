@@ -61,7 +61,8 @@ print("Maschera per valori minori di 20:")
 mask = numeri < 20
 print(mask)
 
-# Accesso tramite maschera con .loc
+# Accesso tramite maschera con .loc (genera una view,  richiede un indice o
+# maschera, che corrisponda alla Serie sia per lunghezza che per tipo)
 print("Elementi minori di 20 in Serie Pandas usando .loc:")
 print(numeri.loc[mask])
 
