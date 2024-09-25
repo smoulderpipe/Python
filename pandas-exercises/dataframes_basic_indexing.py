@@ -22,8 +22,6 @@ df.index = ["a", "b", "c", "d", "e", "f"]
 print(df)
 print(df.loc[["b", "e"]])
 print(df.loc[["a", "c", "f"], ["crab", "shrimp"]])
-print(df.iloc[:3, [df.columns.get_loc(c) for c in ['shrimp', 'red_fish']]])
-print(df.columns)
 
 #boolean indexing
 
